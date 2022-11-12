@@ -11,7 +11,7 @@
 <body>
     <h1>画像をアップロードしてください</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="out_file" accept=".jpg, .png">
+        <input type="file" name="out_file" capture="camera"  accept=".jpg, .png">
         <input type="submit" value="送信">
     </form>
     <h1>読み取り結果</h1>
